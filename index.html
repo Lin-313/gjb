@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>债券基金知识平台 | 零基础看懂债券基金</title>
+    <style>
+        /* 全局样式重置与基础设置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        /* 标题样式 */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            margin: 25px 0 15px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        /* 模块容器 */
+        .module {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        /* 文本与列表样式 */
+        p {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+        ul, ol {
+            margin: 10px 0 10px 25px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        /* 表格样式 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            overflow-x: auto;
+            display: block;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        /* 标记样式（✅❌⚠️） */
+        .tip {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .warn {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .note {
+            color: #f39c12;
+            font-weight: bold;
+        }
+        /* 响应式适配（手机端） */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            .module {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>📘 债券基金完全指南 | 从入门到精通</h1>
+
+    <!-- 基础概念模块 -->
+    <div class="module">
+        <h2>📋 一、债券基金核心概念</h2>
+        <p>债券基金是指专门投资于债券的基金，它通过集中众多投资者的资金，对债券进行组合投资，寻求较为稳定的收益。</p >
+        <ul>
+            <li>🎯 本质：基金管理人替投资者买一篮子债券，分散单一债券的风险</li>
+            <li>💡 收益来源：利息收益 + 债券价格波动收益</li>
+            <li>📌 风险等级：中低风险（远低于股票基金，略高于货币基金）</li>
+        </ul>
+    </div>
+
+    <!-- 核心指标模块 -->
+    <div class="module">
+        <h2>📊 二、债券基金核心参考指标</h2>
+        <table>
+            <tr>
+                <th>指标名称</th>
+                <th>含义</th>
+                <th>怎么看</th>
+            </tr>
+            <tr>
+                <td>久期</td>
+                <td>衡量债券价格对利率变化的敏感度</td>
+                <td>久期越长，利率波动影响越大</td>
+            </tr>
+            <tr>
+                <td>净值增长率</td>
+                <td>基金净值的涨跌幅度</td>
+                <td>优先看长期（1年/3年）增长率</td>
+            </tr>
+            <tr>
+                <td>信用等级</td>
+                <td>持仓债券的信用风险等级</td>
+                <td>AAA级＞AA级，等级越高风险越低</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- 类型对比模块 -->
+    <div class="module">
+        <h2>🔍 三、不同类型债券基金对比</h2>
+        <ul>
+            <li><strong>纯债基金</strong> ✅ 只投债券，不投股票，风险最低</li>
+            <li><strong>混合债基</strong> ⚠️ 少量投资股票/可转债，收益和风险略高</li>
+            <li><strong>可转债基金</strong> ❌ 主要投可转债，波动大，风险接近偏股基金</li>
+            <li><strong>短期债基</strong> ✅ 投资短期债券，流动性好，收益接近货币基金</li>
+        </ul>
+    </div>
+
+    <!-- 选购技巧模块 -->
+    <div class="module">
+        <h2>🎯 四、债券基金选购技巧</h2>
+        <ol>
+            <li><span class="tip">✅ 看基金规模</span>：规模过小（＜1亿）易有流动性风险，建议选5亿以上</li>
+            <li><span class="tip">✅ 看历史业绩</span>：优先选近3年收益稳定、回撤小的基金</li>
+            <li><span class="warn">❌ 避坑点</span>：避免选持仓高风险信用债、久期过长的基金（利率上行期易亏损）</li>
+            <li><span class="note">⚠️ 时机选择</span>：利率下行周期适合买中长期债基，利率上行周期适合短期债基</li>
+        </ol>
+    </div>
+
+    <!-- 风险提示模块 -->
+    <div class="module">
+        <h2>📢 五、风险提示</h2>
+        <p class="warn">⚠️ 债券基金并非保本产品！可能面临利率风险、信用风险、流动性风险，过往业绩不代表未来表现。</p >
+        <p>投资建议：根据自身风险承受能力选择，中短期资金可投短期债基，长期闲置资金可考虑纯债基金。</p >
+    </div>
+</body>
+</html>
